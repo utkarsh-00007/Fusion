@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+font-family: 'Ubuntu',sans-serif;
+}
+nav ul{
+    display: flex; /*  everything will become horizontal */
+    align-items: center; /* To center Home & About*/
+    list-style-type:none; /* dots will be removed*/
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;  /*To give space between all list items like spotify with name & Logo, home & about*/
+}
+.brand img{ /* .classname tag-name */
+    width: 44px;
+    padding: 8px; /*To give space between logo & name Spotify*/
+}
+.brand{
+    display: flex; /* To Horizontal logo & Spotify name*/
+    align-items: center; /* To center logo & Spotify name*/
+    font-weight: bolder; 
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 75vh; /* height of container is 75 % of total height */
+    background-color:black;
+    color: whitesmoke;
+    font-family: 'Varela Round',sans-serif;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white; /* content inside bottom class will become white */
+    display: flex; 
+    justify-content: center; /*It make progress indicator from left to center */
+    align-items: center;
+    flex-direction: column; /* To bring out font awesome icons down the progress indicator*/
+    margin-bottom: 12px;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer; /* So that we can play,pause,next songs etc */
+}
+#myProgressBar{  /* #id-name Syntax */
+    width: 80vw;
+}
