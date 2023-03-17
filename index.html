@@ -16,21 +16,77 @@
             <li>About</li>
         </ul>
     </nav>
-    <div class="container">
-        <!-- It is center of UI, Inthis, there will be Left & right parts. 
+    <!-- It is center of UI, Inthis, there will be Left & right parts. 
         Left Part will contain list of songs & right may also contain anything, 
         so we have to make 2 div boxes based on this  -->
-        <h1>Best of NCS - No copyright Sounds </h1>
+    <div class="container">
         <div class="songList"></div>
+            <h1>Best of NCS - No copyright Sounds </h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songName">Let me love you ❤️</span>
+                    <span class="songlistplay"><span class="timestamp">05:34<i class="far fa-1.5x fa-play-circle"></i></span></span>
+                </div>
+            </div>
+        </div>
         <div class="songBanner"></div>
     </div>
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
         <div class="icons">
             <i class="fa-solid fa-3x fa-backward"></i>
-            <i class="far fa-3x fa-play-circle"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
             <i class="fa-solid fa-3x fa-forward"></i>
             <!-- <i class="far fa-3x fa-play-backward"></i> -->
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="62px" alt="" id="gif"> Let me love you - Justin Bieber
         </div>
     </div>
     <script src="https://kit.fontawesome.com/8c67220cf9.js" crossorigin="anonymous"></script>
