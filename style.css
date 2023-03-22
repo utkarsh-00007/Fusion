@@ -18,12 +18,14 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
+    background-color:slategray;
     color: white;
 }
 
-nav ul li{
+nav ul a{
     padding: 0 12px;
+    text-decoration: none;
+    color: white;
 }
 .brand img{
     width: 44px;
@@ -37,7 +39,7 @@ nav ul li{
     font-size: 1.3rem;
 }
 
-.container{
+.container1{
     min-height: 72vh;
     background-color: black;
     color: white;
@@ -50,11 +52,23 @@ nav ul li{
    background-image: url('bg.jpg');
 }
 
+.container2{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg1.jpg');
+}
 .bottom{
     position: sticky;
     bottom: 0;
     height: 130px;
-    background-color: black;
+    background-color:slategray;
     color: white;
     display: flex;
     justify-content: center;
